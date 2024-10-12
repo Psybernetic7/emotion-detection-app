@@ -19,5 +19,5 @@ A web application that detects emotions in real-time using the webcam and displa
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/your-username/emotion-detection-app.git
+   https://github.com/AcidElfxxx/emotion-detection-app.git
 2. Navigate to the project directory and open index.html in your browser.
