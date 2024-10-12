@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Real-Time Emotion Detection</title>
+  <link rel="stylesheet" href="styles.css">
+  <script src="https://cdn.jsdelivr.net/gh/ml5js/Intro-ML-Arts-IMA@ml5-build-10-7-19/ml5_build/ml5.min.js"></script>
+</head>
+<body>
+  <div class="container">
+    <h1>Real-Time Emotion Detection</h1>
+    <div class="video-container">
+      <video id="video" width="640" height="480" autoplay muted></video>
+      <canvas id="overlay" width="640" height="480"></canvas>
+    </div>
+    <div class="emotion-display">
+      <h2>Detected Emotion:</h2>
+      <div id="emotion">--</div>
+      <div id="confidence">Confidence: --</div>
+    </div>
+    <div class="controls">
+      <button id="start-button">Start Detection</button>
+      <button id="stop-button">Stop Detection</button>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
