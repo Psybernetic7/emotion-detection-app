@@ -2,6 +2,8 @@
 
 A web application that detects emotions in real-time using the webcam and displays the detected emotion with confidence levels.
 
+Live Demo - https://emotion-detection-app.vercel.app/
+
 ## Features
 
 - Real-time emotion detection using ml5.js
